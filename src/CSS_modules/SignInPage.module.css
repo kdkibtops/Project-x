@@ -1,0 +1,23 @@
+/*  Variables */
+@import '../App.css';
+
+
+.registerationForm {
+    margin: 2% 10% 0 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle {
+    text-align: center;
+}
+
+.iconDiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    grid-gap: 30%;
+    margin-top: 0.7rem;
+    margin-left: 40%;
+    text-align: center;
+}

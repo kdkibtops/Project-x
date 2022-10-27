@@ -1,0 +1,30 @@
+/*  Variables */
+@import '../App.css';
+
+.servicesSection {
+    margin: 2rem auto;
+
+}
+
+.servicesSection h1 {
+    color: rgba(68, 64, 64, 0.329);
+}
+
+.servicesSection ul {
+    text-align: start;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.services {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 30%));
+    grid-gap: 10px;
+}
+
+.service {
+    border-radius: var(--border-radius-2);
+    background-color: var(--services-color);
+}

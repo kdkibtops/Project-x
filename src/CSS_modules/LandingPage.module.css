@@ -1,0 +1,52 @@
+/* Variables */
+@import '../App.css';
+
+
+
+.landing {
+    background-image: url('../../public/bckgrnd.jpg');
+    background-size: cover;
+    height: calc(50vh - 62px);
+    position: relative;
+}
+
+
+.introText {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 320px;
+    max-width: 100%;
+}
+
+.introText h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 50px;
+    color: var(--main-color);
+}
+
+.introText p {
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+.aboutSection {
+    margin: 0;
+    margin-left: 15%;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+}
+
+.features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: transparent;
+    text-align: center;
+}

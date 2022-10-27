@@ -1,0 +1,8 @@
+/*  Variables */
+@import '../App.css';
+
+.date {
+    font-size: larger;
+    font-weight: bold;
+    margin: 0.2rem;
+}

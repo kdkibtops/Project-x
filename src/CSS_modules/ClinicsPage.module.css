@@ -1,0 +1,51 @@
+@import '../App.css';
+
+.iconDiv {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0.2rem;
+    width: 80%;
+    place-content: center space-evenly;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center;
+}
+
+
+/* Main Table */
+.mainTable {
+    background: var(--background-text);
+    width: 90%;
+    border-radius: var(--card-border-radius);
+    padding: var(--card-padding);
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    transition: all 300ms ease;
+}
+
+/* Table Rows */
+
+.tableHeaders tr {
+    justify-content: space-between;
+}
+
+.mainTable tr:hover {
+    color: gray;
+    font-weight: bold;
+}
+
+/* Table Cells */
+.tableHeaders tr td {
+    width: 2rem;
+    font-weight: 800;
+
+}
+
+.mainTable tr td {
+    text-align: left;
+    line-height: 1.5rem;
+    width: 33%;
+
+}

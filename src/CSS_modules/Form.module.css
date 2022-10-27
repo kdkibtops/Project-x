@@ -1,0 +1,54 @@
+/* Start Variables */
+@import '../App.css';
+
+/* Responsivness */
+
+/* Small screens */
+@media (max-width: 500px) {
+
+    .formLabel,
+    .blankSpaceRegisteration {
+        font-size: 10px;
+    }
+}
+
+/* Medium screens */
+@media (max-width: 900px) {
+
+    .formLabel,
+    .blankSpaceRegisteration {
+        font-size: 15px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 900px) {
+
+    .formLabel,
+    .blankSpaceRegisteration {
+        font-size: 20px;
+    }
+}
+
+
+
+.formGroup {
+    margin-bottom: 10px;
+    display: flex;
+    max-width: 100%;
+
+}
+
+.formLabel {
+    font-weight: bold;
+    margin: auto
+}
+
+.blankSpaceRegisteration {
+    width: 60%;
+    line-height: 40px;
+    padding-right: 10%;
+    margin-left: -10%;
+    background-color: beige;
+    border: none;
+}

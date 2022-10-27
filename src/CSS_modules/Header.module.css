@@ -1,0 +1,85 @@
+/* Variables */
+@import '../App.css';
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.logo {
+    width: 60px;
+}
+
+.links {
+    position: relative;
+    width: 70px;
+    text-align: end;
+}
+
+.barsIcon {
+    width: 50px;
+    text-align: end;
+    margin: 5px;
+
+}
+
+.barsIcon:hover {
+    transition: 0.3s;
+    padding-right: 10px;
+}
+
+
+.UL {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: var(--background-list);
+    opacity: 75%;
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    top: calc(100% + 20px);
+    text-align: start;
+    z-index: 1;
+}
+
+.UL::before {
+    content: '';
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent var(--background-list) transparent;
+    position: absolute;
+    right: 5px;
+    top: -40px;
+
+}
+
+.listItem {
+    display: block;
+    padding: 15px;
+    color: var(--main-text);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.listItem a {
+    text-decoration: none;
+}
+
+.listItem:hover {
+    padding-left: 25px;
+    background-color: var(--background-list-active);
+}
+
+.UL li:not(:last-child) {
+    border-bottom: solid black;
+}
+
+.eClinic {
+    font-size: larger;
+}

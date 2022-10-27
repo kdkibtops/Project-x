@@ -1,0 +1,45 @@
+@import '../App.css';
+
+.features {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: transparent;
+    text-align: center;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    grid-gap: 30px;
+
+}
+
+.feat {
+    padding-top: 10px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+.feat i,
+.feat h1 {
+    cursor: pointer;
+}
+
+.feat i {
+    transition: 0.3s;
+}
+
+.feat:hover {
+    padding-left: 20px;
+    background-color: var(--main-color-active);
+}
+
+.feat i:hover {
+    padding-left: 25px;
+}

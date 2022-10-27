@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -32,7 +32,88 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+/* Template 1... */
+/* Start Variables */
+:root {
+  --main-color-theme: #264b75;
+  --main-color: #02645a;
+  --main-color-active: #50a89f;
+  --services-color: #f1f1f329;
+  --background-list: rgba(3, 119, 113, 0.603);
+  --background-list-active: rgba(3, 119, 113, 0.603);
+  --background-text: rgb(248, 232, 232);
+  --main-text: black;
+  --font-large: 1rem;
+  --primary-border-color: black;
+  --color-danger: rgb(110, 7, 7);
+  --colored-text-color: rgb(75, 0, 75);
+  --card-padding: 1.8rem 2rem;
+  --box-shadow: 0 2rem 3rem var(--color-light);
+  --card-border-radius: 2rem;
+  --border-radius-1: 0.4rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 1.2rem;
+  --padding-1: 1.2rem;
+
 }
+
+/* End Variables */
+
+/* Start Global rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HTML tags */
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+header {
+  background-color: var(--main-color-theme)
+}
+
+/* Classes */
+
+
+.centered-text {
+  text-align: center;
+}
+
+.bordered-container {
+  display: flex;
+  place-content: center;
+  border: var(--primary-border-color);
+  border-style: double;
+  border-width: 12px;
+  width: fit-content;
+  margin: 5rem auto;
+}
+
+.important {
+  color: var(--color-danger);
+  margin: 2rem auto;
+}
+
+.selectable {
+  cursor: pointer;
+}
+
+.colored-text {
+  color: var(--colored-text-color);
+}
+
+/* End Global rules */
